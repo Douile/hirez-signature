@@ -7,6 +7,13 @@ const TESTS = [
     authKey: '23DF3C7E9BD14D84BF892AD206B6755C',
     timestamp: '20120927183145',
     signature: 'e4b75aac6c70059578adeb7fa2bbf504'
+  },
+  {
+    devId: '1004',
+    methodName: 'getPlayer',
+    authKey: '23DF3C7E9BD14D84BF892AD206B6755C',
+    timestamp: '20200619161618',
+    signature: 'ea665b5a12673d05896524511fe201fd'
   }
 ];
 
