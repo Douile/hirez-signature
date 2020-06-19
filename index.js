@@ -37,7 +37,7 @@ const createHirezSignature = function(devId, methodName, authKey, timestamp) {
       if (!data) return reject(new Error('No hash data'));
       return resolve({ signature: data.toString('hex'), timestamp });
     });
-    hash.write(`${devId}${methodName.toLowerCase()}${authKey}`);
+    hash.write(`${devId}${methodName.toLowerCase()}${authKey}${timestamp}`);
     hash.end();
   })
 }

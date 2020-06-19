@@ -4,9 +4,9 @@ const TESTS = [
   {
     devId: '1004',
     methodName: 'getPlayer',
-    authKey: '23DF3C7E9BD14D84BF892AD206B6755C0',
+    authKey: '23DF3C7E9BD14D84BF892AD206B6755C',
     timestamp: '20120927183145',
-    signature: 'f50729227aedee6b390f13b289b06e7b'
+    signature: 'e4b75aac6c70059578adeb7fa2bbf504'
   }
 ];
 
