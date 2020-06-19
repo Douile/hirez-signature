@@ -1,0 +1,25 @@
+{
+  "name": "hirez-signature",
+  "version": "1.0.0",
+  "description": "A lightweight package to generate signatures for use with the official hirez api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Douile/hirez-signature.git"
+  },
+  "keywords": [
+    "hirez",
+    "smite",
+    "paladins",
+    "api"
+  ],
+  "author": "Douile",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Douile/hirez-signature/issues"
+  },
+  "homepage": "https://github.com/Douile/hirez-signature#readme"
+}
