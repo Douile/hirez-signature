@@ -1,6 +1,6 @@
 {
   "name": "hirez-signature",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight package to generate signatures for use with the official hirez api",
   "main": "index.js",
   "scripts": {
