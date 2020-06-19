@@ -8,11 +8,16 @@ A lightweight 0 dependency signature generator for the [Official hirez API](http
 
 ```javascript
 const createHirezSignature = require('hirez-signature');
+const fetch = require('node-fetch');
 
-async function iNeedASignature() {
-  // ...
+async function fetchMethod(methodName, devId, authKey, session) {
   const { signature, timestamp } = await createHirezSignature(devId, methodName, authKey);
-  // ...
+  const res = await fetch(`http://api.smitegame.com/smitgame.svc/${methodName}Json/${devId}/${signature}/${session ? `${session}/` : ''}${timestamp}`);
+  return await res.json();
+}
+
+async function createSession(devId, authKey) {
+  return await fetchMethod('createsession', devId, authKey);
 }
 ```
 
